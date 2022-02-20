@@ -3,7 +3,8 @@
 #
 # classifier.py
 #
-# Taken from https://github.com/akshitac8/tfvaegan
+# --------------------------------------------------
+# Taken from https://github.com/akshitac8/tfvaegan
 # --------------------------------------------------
 from sklearn.preprocessing import MinMaxScaler 
 from torch.autograd import Variable

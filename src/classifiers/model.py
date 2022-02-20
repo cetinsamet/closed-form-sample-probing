@@ -3,6 +3,7 @@
 #
 # model.py
 #
+# --------------------------------------------------
 # Taken from https://github.com/akshitac8/tfvaegan
 # --------------------------------------------------
 from torch.autograd import Variable

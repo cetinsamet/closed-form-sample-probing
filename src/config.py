@@ -4,8 +4,9 @@
 # config.py
 #
 # Written by cetinsamet -*- cetin.samet@metu.edu.tr
-# Parts are adapted from https://github.com/akshitac8/tfvaegan
 # September, 2021
+# --------------------------------------------------
+# The parts related to generative model are taken from https://github.com/akshitac8/tfvaegan
 # --------------------------------------------------
 import argparse
 

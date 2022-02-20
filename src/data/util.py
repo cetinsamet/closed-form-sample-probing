@@ -3,6 +3,7 @@
 #
 # util.py
 #
+# --------------------------------------------------
 # Adapted from https://github.com/akshitac8/tfvaegan
 # --------------------------------------------------
 from sklearn import preprocessing

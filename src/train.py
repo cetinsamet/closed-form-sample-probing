@@ -4,8 +4,9 @@
 # train.py
 #
 # Written by cetinsamet -*- cetin.samet@metu.edu.tr
-# Parts are adapted from https://github.com/akshitac8/tfvaegan
 # September, 2021
+# --------------------------------------------------
+# The parts related to generative model are taken/adapted from https://github.com/akshitac8/tfvaegan
 # --------------------------------------------------
 from __future__ import print_function
 import torch.backends.cudnn as cudnn
@@ -23,6 +24,7 @@ from data import *
 
 FN = torch.from_numpy
 F = torch.nn.functional
+
 
 def print_hps():
     print('HYPER-PARAMETERS', flush=True)
@@ -133,7 +135,7 @@ if opt.feedback_loop == 2:
     netF = Feedback(opt)
 
 # ------------------------------------------ #
-# init Tensors
+# init tensors
 # ------------------------------------------ #
 input_res = torch.FloatTensor(opt.batch_size, opt.resSize)
 input_att = torch.FloatTensor(opt.batch_size, opt.attSize)
@@ -144,7 +146,7 @@ one = torch.FloatTensor([1])
 mone = one * -1
 
 # ------------------------------------------ #
-# Cuda
+# cuda
 # ------------------------------------------ #
 if opt.cuda:
     netD.cuda()
@@ -430,6 +432,7 @@ for epoch in range(opt.nepoch):
     
     # ------------------------------------------ #
     # reset G to training mode
+    # ------------------------------------------ #
     netG.train()
     netDec.train()
     if opt.feedback_loop == 2:
