@@ -307,7 +307,7 @@ for epoch in range(opt.nepoch):
                 # ------------------------------
                 for x_probe_train, y_probe_train, x_probe_val, y_probe_val in meta_iterator:
                     # ----------------------------------------------------------------
-                    # CREATE A SYNTHETIC DATASET USING SUPPORT CLASSES
+                    # CREATE A SYNTHETIC DATASET USING PROBE TRAIN CLASSES
                     # ----------------------------------------------------------------
                     unq_probe_train_classes = FN(np.unique(y_probe_train[0].numpy()))
                     probe_train_classes_onehot = torch.diag(torch.ones(opt.n_probe_train))
@@ -340,7 +340,7 @@ for epoch in range(opt.nepoch):
                     elif opt.closed_form_model_type == 'sem2vis':
                         W = SEM2VIS(Sv, Xv, lamb=opt.lamb)
                     # ----------------------------------------------------------------
-                    # COMPUTE SAMPLE PROBING LOSS WITH QUERY SAMPLES
+                    # COMPUTE SAMPLE PROBING LOSS WITH PROBE VALIDATION SAMPLES
                     # ----------------------------------------------------------------
                     task_loss = 0.
                     for i in range(opt.n_subset):
