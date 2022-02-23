@@ -20,6 +20,7 @@ import random
 # --------------------
 from classifiers import *
 from config import opt
+from solvers import *
 from data import *
 
 FN = torch.from_numpy
