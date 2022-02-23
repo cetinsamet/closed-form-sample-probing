@@ -44,3 +44,5 @@ url={https://openreview.net/forum?id=ljxWpdBl4V}
 ```
 ## Acknowledgements
 The parts of the code related to generative model (TF-VAEGAN) training is taken/adapted from [tfvaegan](https://github.com/akshitac8/tfvaegan) repository.
+
+The work in this research was supported in part by the TUBITAK Grant 119E597. The numerical calculations reported in this paper were partially performed at TUBITAK ULAKBIM, High Performance and Grid Computing Center (TRUBA resources).
