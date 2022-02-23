@@ -12,13 +12,18 @@ The official repository for the [Closed-form Sample Probing for Learning Generat
 Proposed data splits for all datasets (all together with the finetuned features) can be found [here](https://drive.google.com/drive/folders/1rCfyAr2dWuNN5O2kbouclaFjNIbPqeHy?usp=sharing). Please download and place data folder suchlike the directory structure after the placement should look like this:
 
     .
-    ├── data                    # Proposed data splits for all datasets (Downloaded and placed here)
+    ├── data                    # Proposed data splits for all datasets | ### Downloaded and placed here ###
     ├── images                  # Images used in README.md
     ├── src                     # Source files
     ├── LICENSE
     └── README.md
 
 **P.S.** <ins>In case of a problem of reaching data using link above</ins>, the exact same proposed splits can be found [here](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) (not including FLO and any finetuned features) and [here](https://github.com/akshitac8/tfvaegan) (including all).
+
+## Installation
+For the installation details, please check [tfvaegan](https://github.com/akshitac8/tfvaegan) since the provided scripts (under <i>scripts</i> folder) train TF-VAEGAN model with and without sample probing. 
+
+Training logs of <i>validation</i> and <i>test</i> phases of the presented results in the paper can be found under <i>logs</i> folder.
 
 ## Results
 
