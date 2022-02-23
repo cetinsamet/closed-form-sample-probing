@@ -15,3 +15,5 @@ year={2022},
 url={https://openreview.net/forum?id=ljxWpdBl4V}
 }
 ```
+## Acknowledgements
+The parts of the code related to generative model (TF-VAEGAN) training is taken/adapted from [tfvaegan](https://github.com/akshitac8/tfvaegan) repository.
