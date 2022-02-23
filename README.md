@@ -12,8 +12,8 @@ The official repository for the [Closed-form Sample Probing for Learning Generat
 Proposed data splits for all datasets (all together with the finetuned features) can be found [here](https://drive.google.com/drive/folders/1rCfyAr2dWuNN5O2kbouclaFjNIbPqeHy?usp=sharing). Please download and place data folder suchlike the directory structure after the placement should look like this:
 
     .
-    ├── data                    # Proposed data splits for all datasets | ### Downloaded and placed here ###
-    ├── images                  # Images used in README.md
+    ├── data                    # Proposed data | ### Downloaded and placed here ###
+    ├── images                  # Images used in README
     ├── src                     # Source files
     ├── LICENSE
     └── README.md
