@@ -27,7 +27,7 @@ Training logs of <i>validation</i> and <i>test</i> phases of the presented resul
 
 ## Results
 
-<p align="justify"> <b>Table</b>: Generalized zero-shot learning scores of sample probing with alternative closed-form models, based on TF-VAEGAN baseline. In terms of h-scores, we observe considerable performance variations across the probe models and datasets. These results suggest that sample probe alternatives have their advantages and disadvantages, and their performances can be data-dependent. Overall, the fact that we observe equivalent (2) or better (9) h-scores in 11 out of 12 sample probing experiments indicates the versatility of the approach in terms of compatibility with various closed-form probe models.</p>
+<p align="justify"> <b>Table</b>: Generalized zero-shot learning scores of sample probing with alternative closed-form models, based on TF-VAEGAN baseline. In terms of h-scores, we observe considerable performance variations across the probe models and datasets.</p>
 <p align="center"> <img src = "images/sample-probing-with-alternative-closed-form-models.png" width="800"> </p>
 
 ## Citation
