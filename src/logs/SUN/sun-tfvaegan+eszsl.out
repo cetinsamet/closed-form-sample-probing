@@ -54,7 +54,6 @@ sample_probing_loss_type      :zsl
 closed_form_model_type        :eszsl
 finetune                      :False
 lambda2                       :10.0
-
 [1/400]  Loss_D: -3.4319 Loss_G: 0.8038, Wasserstein_dist:4.6843, vae_loss_seen:395.2775 GZSL: seen=0.2076, unseen=0.1125, h=0.1459 ZSL: unseen accuracy=0.3173
 [2/400]  Loss_D: -3.0413 Loss_G: -0.8321, Wasserstein_dist:4.2119, vae_loss_seen:380.9201 GZSL: seen=0.2683, unseen=0.2106, h=0.2360 ZSL: unseen accuracy=0.3548
 [3/400]  Loss_D: -3.1551 Loss_G: -1.0334, Wasserstein_dist:4.0992, vae_loss_seen:393.3951 GZSL: seen=0.2827, unseen=0.3096, h=0.2955 ZSL: unseen accuracy=0.4625
@@ -457,6 +456,7 @@ lambda2                       :10.0
 [400/400]  Loss_D: -1.1536 Loss_G: -3.1582, Wasserstein_dist:1.5681, vae_loss_seen:348.7943 GZSL: seen=0.3895, unseen=0.4337, h=0.4104 ZSL: unseen accuracy=0.6327
 Best h-score = 0.4308 (obtained at iteration-394)
 - BE SURE TO SELECT THE MODEL TRAINED FOR 394 ITERATIONS ON TEST SET AS FINAL MODEL.
+
 HYPER-PARAMETERS
 dataset                       :SUN
 dataroot                      :../data
@@ -513,7 +513,6 @@ sample_probing_loss_type      :zsl
 closed_form_model_type        :eszsl
 finetune                      :False
 lambda2                       :10.0
-
 - BE SURE THAT THE HYPERPARAMETERS (INCLUDING THE NUMBER OF ITERATIONS) ARE TUNED ON VALIDATION SET FOR THE FINAL TEST RUN.
 [1/400]  Loss_D: -3.4026 Loss_G: -0.0138, Wasserstein_dist:4.4307, vae_loss_seen:367.7020 GZSL: seen=0.2678, unseen=0.1375, h=0.1817 ZSL: unseen accuracy=0.3174
 [2/400]  Loss_D: -3.0766 Loss_G: -0.7206, Wasserstein_dist:3.9372, vae_loss_seen:390.5414 GZSL: seen=0.2915, unseen=0.2861, h=0.2888 ZSL: unseen accuracy=0.4389

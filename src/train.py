@@ -31,7 +31,6 @@ def print_hps():
     print('HYPER-PARAMETERS', flush=True)
     for k, v in vars(opt).items():
         print('{:30s}:{}'.format(k, v), flush=True) 
-    print(flush=True)
     if not opt.validation:
         print("- BE SURE THAT THE HYPERPARAMETERS (INCLUDING THE NUMBER OF ITERATIONS) ARE TUNED ON VALIDATION SET FOR THE FINAL TEST RUN.", flush=True)
 
@@ -443,3 +442,4 @@ for epoch in range(opt.nepoch):
 if opt.validation:
     print("Best h-score = {:.4f} (obtained at iteration-{})".format(best_H, best_iter))
     print("- BE SURE TO SELECT THE MODEL TRAINED FOR {} ITERATIONS ON TEST SET AS FINAL MODEL.".format(best_iter))
+    print(flush=True)
